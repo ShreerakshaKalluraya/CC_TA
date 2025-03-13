@@ -33,5 +33,8 @@ pipeline {
         failure {
             error 'Pipeline failed'
         }
+        success{
+            echo 'sccessfully executed'
+        }
     }
 }
